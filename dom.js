@@ -6,3 +6,7 @@ let lien = document.querySelector('a')
 lien.href = 'https://github.com'
 lien.innerText = "Github"
 lien.style.fontSize = '50px'
+
+let h3 = document.querySelector('h3')
+h3.classList.add('center')
+h3.classList.remove('center')
